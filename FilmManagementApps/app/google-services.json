@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "13594853965",
+    "project_id": "filmmanagementapps",
+    "storage_bucket": "filmmanagementapps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13594853965:android:5764caf4809209525ad204",
+        "android_client_info": {
+          "package_name": "com.arief.filmmanagementapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "13594853965-sls3imrd5pt4pfbqf7krnfqjjv2vft8j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arief.filmmanagementapps",
+            "certificate_hash": "20902fafaccf1a7859eaa905d533e060150ddaaf"
+          }
+        },
+        {
+          "client_id": "13594853965-hk6vbs4s8pca6gbuhsjjid4jrmlgtg8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANdPL2sSpfgzKYbiUKKAr3LftVMJ9YSVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "13594853965-hk6vbs4s8pca6gbuhsjjid4jrmlgtg8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

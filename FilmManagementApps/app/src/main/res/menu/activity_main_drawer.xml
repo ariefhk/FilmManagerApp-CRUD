@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/homex_foreground"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_inputData"
+            android:icon="@mipmap/inputx_foreground"
+            android:title="Input Data Film" />
+        <item
+            android:id="@+id/nav_list_data"
+            android:icon="@mipmap/listx_foreground"
+            android:title="List Data Film" />
+    </group>
+</menu>

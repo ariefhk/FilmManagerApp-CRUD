@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arief.filmmanagementapps.activity.RegisterActivity">
+
+    <!--    Progres Bar-->
+    <ProgressBar
+        android:id="@+id/progres_regis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true" />
+
+    <!--    Layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Buat Akun"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!--        Email Box-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center_horizontal">
+
+            <EditText
+                android:id="@+id/email_register"
+                android:layout_width="300dp"
+                android:maxLength="2000"
+                android:textSize="16dp"
+                android:layout_height="wrap_content"
+                android:hint="Email" />
+
+        </LinearLayout>
+
+
+        <!--        Password Box-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center_horizontal">
+
+            <EditText
+                android:id="@+id/password_register"
+                android:layout_width="300dp"
+                android:maxLength="2000"
+                android:textSize="16dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Password" />
+        </LinearLayout>
+
+
+        <!--        Buat Akun-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/register_btn"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Register" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Sudah punya Akun? Silahkan "
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/login_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Login"
+                android:textColor="@color/teal_200"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <!--            <Button-->
+            <!--                android:id="@+id/login_btn"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Login" />-->
+        </LinearLayout>
+        <com.google.android.gms.ads.AdView
+            android:layout_marginTop="50dp"
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+<!--            Test Ads Banner:-->
+<!--            ca-app-pub-3940256099942544/6300978111-->
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
